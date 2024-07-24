@@ -147,7 +147,7 @@ function makePost(){
     share.src = "Elements/send.png";
     bookmark.src = "Elements/bookmark-white.png";
     postLikes.innerHTML = `${getNumOfLikes()} likes`;
-    postCaptionUser.innerHTML = "User1";
+    postCaptionUser.innerHTML = postUser.innerHTML;
     postCaptionText.innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, totam ducimus. Assumenda magnam ut, magni tempora eveniet dolor quas! Delectus reprehenderit quos veritatis quasi voluptatibus amet fugiat quod et dolor!";
 
     post.appendChild(header);
