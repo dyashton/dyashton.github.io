@@ -134,7 +134,7 @@ function makePost(){
     postCaptionUser.className = "captionUser username clickable";
     postCaptionText.className = "captionText";
 
-    img.src = "Elements/PFPs/PFP1.jpg";
+    img.src = getPFP();
     postUser.innerHTML = getUsername();
     postTime.innerHTML = `• ${getTime()}h`;
     postLocation.innerHTML = "Nashville, TN";
