@@ -346,3 +346,9 @@ main{
 
 
 }
+
+@media (max-width: 1260px){
+    #navBar{
+        width: 100px;
+    }
+}
