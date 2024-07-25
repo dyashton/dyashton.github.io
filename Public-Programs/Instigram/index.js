@@ -134,7 +134,7 @@ function makePost(){
     postCaptionUser.className = "captionUser username clickable";
     postCaptionText.className = "captionText";
 
-    img.src = "./Elements/PFPs/PFP3.jpg";
+    img.src = getPFP();
     postUser.innerHTML = getUsername();
     postTime.innerHTML = `• ${getTime()}h`;
     postLocation.innerHTML = "Nashville, TN";
@@ -188,6 +188,7 @@ function makePost(){
 
 function getPFP(){
     let rand = Math.floor(Math.random() * 10);
+    console.log(PFPs[rand]);
     return PFPs[rand];
 }
 
