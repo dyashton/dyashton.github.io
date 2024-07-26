@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const main = document.getElementById('main');
     main.addEventListener('scroll', () => {
         let maxScroll = main.scrollHeight - main.clientHeight;
-        if(main.scrollTop/maxScroll> 0.95) {
+        if(main.scrollTop/maxScroll> 0.85) {
             makePost();
 
 
