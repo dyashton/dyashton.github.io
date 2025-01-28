@@ -125,7 +125,7 @@ void display(){
 	fill_n(zBuffer, SCREEN_HEIGHT * SCREEN_WIDTH, 0);
 	fill_n(screenBuffer, SCREEN_HEIGHT * SCREEN_WIDTH, SENTINEL);	
 }
-
+// Next 3 Functions are given by ChatGPT for non-blocking input
 // Function to set the terminal to non-blocking mode
 void setNonBlockingMode() {
     struct termios oldt, newt;
